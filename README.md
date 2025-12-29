@@ -2,11 +2,11 @@
 # AI-Assisted Engineer Growth Planner (Spring Boot)
 ## Overview
 #### This project is a backend system designed to help engineers identify skill gaps, generate structured learning plans, track progress, and receive interview feedback.
-# The core design principle is decision clarity: \n
-## a.deterministic rules handle decisions \n
-## b.APIs expose intent, not internals \n
-## c.AI is used only for interpretation and explanation \n
-## d.The system is built using Java + Spring Boot, with AI integrated as a controlled dependency rather than a decision-maker. \n
+# The core design principle is decision clarity:
+#### a.deterministic rules handle decisions 
+#### b.APIs expose intent, not internals 
+#### c.AI is used only for interpretation and explanation 
+#### d.The system is built using Java + Spring Boot, with AI integrated as a controlled dependency rather than a decision-maker. 
 # System Flow (High Level)
 a.Engineer profile is created with experience and target role
 b.Skills and current proficiency are captured

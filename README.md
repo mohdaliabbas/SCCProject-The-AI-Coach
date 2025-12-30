@@ -1,4 +1,4 @@
-# SCCProject-The-AI-Coach
+# SCCProject-The-AI-Coach - Download zip...
 # AI-Assisted Engineer Growth Planner (Spring Boot)
 ## Overview
 #### This project is a backend system designed to help engineers identify skill gaps, generate structured learning plans, track progress, and receive interview feedback.

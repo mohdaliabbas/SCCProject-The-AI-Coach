@@ -1,0 +1,20 @@
+#Career Coach
+@GetMapping("/ai/explain/{skill}")
+
+# Career Controller
+@PostMapping("/profile")
+@GetMapping("/profile")
+@PostMapping("/skills")
+@PostMapping("/analyze/{userid}")
+
+#Daily Controller
+@PostMapping("/progress")
+@GetMapping("/progress/{userId}")
+
+# Interview Controller
+@GetMapping("/interview/{skill}")
+@PostMapping("/interview/evaluate/{questionId}")
+
+# Weekly Controller
+@PostMapping("/plan/generate/{userid}")
+@GetMapping("/plan/{userid}")

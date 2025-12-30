@@ -1,52 +1,20 @@
+#Career Coach
+@GetMapping("/ai/explain/{skill}")
 
-1️⃣ Engineer Profile APIs
-Create Engineer Profile
-# POST /api/engineers
-Purpose: Capture experience, role, and baseline context
-Input: experience, targetRole, yearsOfExperience
-Output: engineerId, status
-Get Engineer Profile
-GET /api/engineers/{engineerId}
-Purpose: Retrieve current engineer context
-2️⃣ Skill Management APIs
-Add / Update Skills
-# POST /api/engineers/{engineerId}/skills
-Purpose: Store current skill levels
-Input: skillName, proficiencyLevel
-Output: updated skill state
-Get Skill Gaps
-# GET /api/engineers/{engineerId}/skill-gaps
-Purpose: Identify gaps using rule engine
-Note: Rule-driven, not AI-based
-3️⃣ Planning APIs
-Generate Weekly Plan
-# POST /api/plans/generate
-Purpose: Convert prioritized gaps into a weekly plan
-Input: engineerId, constraints
-Output: day-wise learning plan
-Get Active Plan
-GET /api/plans/{engineerId}/active
-Purpose: Fetch current active plan
-4️⃣ Progress Tracking APIs
-Track Daily Progress
-# POST /api/progress
-Purpose: Record execution against plan
-Input: engineerId, day, status, notes
-Output: updated progress state
-Get Progress Summary
-# GET /api/progress/{engineerId}
-Purpose: View plan execution and completion trends
-5️⃣ Interview Evaluation APIs
-Evaluate Interview Answer
-# POST /api/interviews/evaluate
-Purpose: Evaluate answers and return structured feedback
-Input: question, answer, expectedSkills
-Output: score, strengths, improvementAreas
-AI is used only for explanation, not scoring rules.
-6️⃣ AI Explanation APIs (Bounded)
-Explain Skill Gap
-# POST /api/ai/explain/skill-gap
-Purpose: Convert rule output into human-readable explanation
-Explain Plan
-# POST /api/ai/explain/plan
-Purpose: Explain learning plan rationale without modifying it
+# Career Controller
+@PostMapping("/profile")
+@GetMapping("/profile")
+@PostMapping("/skills")
+@PostMapping("/analyze/{userid}")
+
+#Daily Controller
+@PostMapping("/progress")
+@GetMapping("/progress/{userId}")
+
+# Interview Controller
+@GetMapping("/interview/{skill}")
+@PostMapping("/interview/evaluate/{questionId}")
+
+# Weekly Controller
+@PostMapping("/plan/generate/{userid}")
+@GetMapping("/plan/{userid}")

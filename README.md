@@ -2,7 +2,7 @@
 # AI-Assisted Engineer Growth Planner (Spring Boot)
 ## Overview
 #### This project is a backend system designed to help engineers identify skill gaps, generate structured learning plans, track progress, and receive interview feedback.
-<img width="414" height="523" alt="image" src="https://github.com/user-attachments/assets/9bb14dca-c2e2-4170-9db0-d51834483710" />
+
 # Testable - API
 <img width="715" height="704" alt="image" src="https://github.com/user-attachments/assets/3cf921f0-5f59-4bfa-8ce4-126ed395613c" />
 <img width="573" height="652" alt="image" src="https://github.com/user-attachments/assets/023cfa12-d87e-457c-a231-8747c49484d4" />
@@ -63,3 +63,5 @@ Hardening APIs for broader external consumption
 # Why This Project
 This project was built to explore how clear boundaries, deterministic logic, and controlled AI usage can coexist in a scalable backend system.
 The goal was not to build a “smart” system, but a understandable and explainable one.
+# API
+<img width="414" height="523" alt="image" src="https://github.com/user-attachments/assets/9bb14dca-c2e2-4170-9db0-d51834483710" />
